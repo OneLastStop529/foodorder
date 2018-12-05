@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.jdbc.Driver
+    username: root
+    password: admin
+#    url: jdbc:mysql://192.168.199.221/sell?characterEncoding=utf-8&useSSL=false
+    url: jdbc:mysql://localhost:3306/sell?characterEncoding=utf-8&useSSL=false
+
+server:
+  context-path: /sell
+
+wechat:
+  mpAppId: wxfedc15e2a79b1f09
+  mpAppSecret: 9b1f567c1da4bdd39c27570017e0807e
+
+
+projectUrl:
+  wechatMpAuthorize: http://foodorder.s1.natapp.cc
+  wechatOpenAuthorize: http://foodorder.s1.natapp.cc
+  sell: http://localhost:8080
